@@ -1,0 +1,482 @@
+
+/*
+Theme Name: Agetest Theme.
+
+Description: Really nice theme
+Version: 1.0
+Author: Punam
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    font-weight: 500;
+  
+}
+.navbar-brand-nav {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(21, 16, 90);
+    margin: 8px;
+    letter-spacing: 3px;
+}
+.navbar-brand-nav span{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+   color: rgb(9, 179, 179);
+    margin: 8px;
+    letter-spacing: 3px;
+}
+
+.header{
+ background: rgb(231, 231, 231);
+ width: 100%;
+ height: 175vh;
+
+
+}
+ .advert-section1{
+    background: rgb(190, 188, 188);
+   width: 60%;
+    height: 90px;
+    align-items: center;
+    text-align: center;
+   justify-content: center;
+    margin: 0px auto;
+    padding-top: 30px;
+ }
+ .advert-section1 h5{
+     font-size: 15px;
+     font-weight: normal;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+    
+    
+ }
+  img{
+      margin: 20px;
+     width: 90%;
+     height: 350px;
+     
+ }
+.container h6{
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: rgb(14, 14, 88);
+    margin:20px;
+    margin-left: 80px;
+    font-weight: normal;
+}
+.header-p{
+    font-size: 30px;
+    color: rgb(158, 154, 154);
+    font-weight: lighter;
+   margin-left: 38px;
+}
+.container h4{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.container .custom-select-sec{
+    font-size: 15px;
+    margin-left: 80px;
+border: 1px solid rgb(233, 233, 233);
+width: 40%;
+height: 10%;
+color: rgb(112, 111, 111);
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.container .start{
+    background: rgb(17, 180, 180);
+    border: none;
+    width: 80%;
+    height: 13%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    
+    
+}
+.container .start:hover{
+   
+    cursor: pointer;
+animation: pulse;
+animation-duration: 0.5s;
+    background: rgb(22, 41, 148);
+    transition: 0.4s;
+    
+}
+    
+  
+ .links{
+    margin-top: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     
+ }
+    .links .bt-link{
+width: 10%;
+margin: 2px;
+height: 35px;
+border: none;
+border-radius: 4px;
+letter-spacing: 1px;
+color: #fff;
+font-size: 15px;
+font-weight: 500;
+    }
+    .links .bt-link:hover{
+        cursor: pointer;
+    }
+
+    .advert-section2{
+        background: rgb(190, 188, 188);
+       width: 100%;
+        height: 260px;
+        align-items: center;
+        text-align: center;
+       justify-content: center;
+        margin: 0px auto;
+        padding-top: 30px;
+        margin-top: 40px;
+     }
+     .advert-section2 h5{
+         font-size: 15px;
+         font-weight: normal;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+        
+        
+     }
+     .advert-section3{
+        background: rgb(190, 188, 188);
+       width: 100%;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+       justify-content: center;
+        margin: 0px auto;
+        padding-top: 30px;
+        margin-top: 40px;
+     }
+     .advert-section2 h5{
+         font-size: 15px;
+         font-weight: normal;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+        
+        
+     }
+     .about-section{
+         width: 100%;
+         height: 300px;
+         background-color: rgb(50, 50, 114);
+         margin-top: 20px;
+         color: rgb(219, 216, 216);
+         padding: 30px;
+     }
+.about-section i{
+    font-size: 40px;
+    margin: 5px;
+}
+
+.footer-sec{
+    width: 100%;
+    
+    height: 45px;
+    background-color: rgb(17, 15, 15);
+    color: #fff;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-sec a{
+    color: #fff;
+    margin: 20px;
+    margin-top: 10px;
+   
+}
+.footer-sec a:hover{
+    text-decoration: none;
+}
+/* responsive */
+
+@media ( max-width: 913px){
+    img{
+       
+        width: 100%;
+        height: 250px;
+        
+    }
+    .container h6{
+     font-size: 40px;
+    text-align: center;
+     margin:20px;
+     margin-left: 90px;
+  
+ }
+ .header-p{
+     font-size: 20px;
+     text-align: center;
+     margin-left: 50px;
+ 
+ }
+ .container h4{
+     font-size: 25px;
+     margin-left: 50px;
+     text-align: center;
+     margin-top: 3px;
+     
+ }
+ 
+ .container .start{
+     
+    
+     width: 40%;
+     height: 15%;
+     margin-left: 250px;
+     text-align: center;
+
+     
+     
+     
+ }
+
+ .container .custom-select-sec{
+     text-align: center;
+     margin-left: 250px;
+ }
+ .links .bt-link{
+     width: 25%;
+     font-size: 8px;
+    
+         }
+         .about-section{
+             
+             height: 850px;
+             
+         }
+         .footer-sec{
+             
+             height: 40px;
+             font-size: 10px;
+           
+         }
+        
+}
+@media ( max-width: 541px){
+    .container .start{
+     
+    
+        
+        margin-left: 170px;
+        text-align: center;
+   
+        
+        
+        
+    }
+    .container .custom-select-sec{
+        text-align: center;
+        margin-left: 170px;
+    }
+    
+}
+@media ( max-width: 415px){
+    .container .start{
+     
+    
+        
+        margin-left: 130px;
+        text-align: center;
+   
+        
+        
+        
+    }
+    .container .custom-select-sec{
+        text-align: center;
+        margin-left: 130px;
+    }
+    .btn-next{
+        margin-left: 40px;
+        width: 50%;
+    }
+    
+    
+    .option{
+        margin-left: 40px;
+        width: 30%;
+    }
+   
+   
+}
+@media ( max-width: 361px){
+    .container .start{
+     
+    
+        
+        margin-left: 120px;
+        text-align: center;
+   
+        
+        
+        
+    }
+    .container .custom-select-sec{
+        text-align: center;
+        margin-left: 120px;
+    }
+    
+ 
+}
+
+
+@media ( max-width: 281px){
+    .container .start{
+     
+    
+        
+        margin-left: 100px;
+        text-align: center;
+   
+        
+        
+        
+    }
+    .container .custom-select-sec{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .about-section{
+             
+        height: 910px;
+        
+    }
+}
+/* style of quiz.html file */
+ .container h1{
+    font-size: 40px;
+    color: rgb(57, 57, 107);
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-top: 35px;
+    text-align: center;
+}
+.option_group{
+list-style-type: none;
+margin: 30px;
+
+}
+.option{
+    background-color: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    text-align: center;
+margin-left: 120px;
+    border: 2px solid transparent;
+}
+.option:hover{
+    cursor: pointer;
+    border: 2px solid rgb(36, 36, 131);
+    color:rgb(14, 14, 88);
+
+}
+.btn-next{
+    text-align: center;
+    background-color: rgb(17, 180, 180);
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    margin-left: 220px;
+    transition: 0.4s all;
+}
+.btn-next:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(11, 126, 126, 0.3);
+    background: rgb(22, 41, 148);
+}
+
+.active{
+    background-color: rgb(22, 41, 148);
+    color: #fff !important;
+}
+.ans p{
+text-align: center;
+font-size: 40px;
+color: rgb(20, 20, 77);
+margin: 30px;
+}
+.ans h3{
+    text-align: center;
+font-size: 40px;
+color: rgb(34, 125, 177);
+margin: 30px;
+}
+@media ( max-width: 913px){
+    .btn-next{
+        margin-left: 280px;
+    }
+    .option{
+        margin-left: 200px;
+
+    }
+}
+@media ( max-width: 542px){
+    .btn-next{
+        margin-left: 150px;
+    }
+    .option{
+        margin-left: 70px;
+
+    }
+}
+@media ( max-width: 391px){
+    .btn-next{
+        margin-left: 150px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .option{
+        margin-left: 190px;
+
+    }
+}
+@media ( max-width: 413px){
+    .btn-next{
+        margin-left: 130px;
+    }
+    .option{
+        margin-left: 50px;
+
+    }
+}
